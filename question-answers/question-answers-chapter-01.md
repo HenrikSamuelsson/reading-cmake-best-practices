@@ -4,8 +4,16 @@ Answers to questions in chapter 1 of the book CMake Best Practices, written by D
 
 ## Question Answer 1
 
-CMake needs to be configured when building CMake from source. The configuration can be started after having downloaded the source packages using the following command:
+CMake needs to be configured when building CMake from scratch using the source. The configuration can be started after having downloaded the source packages by running the following command:
 
 ```txt
 ./configure make
+```
+
+## Question Answer 2
+
+After configuration is done, see question answer 1 above, CMake can be installed using the following command.
+
+```txt
+make install
 ```
